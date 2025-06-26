@@ -12,14 +12,14 @@ def Soma():
 def Subtracao():
     num1 = int(input('Digite um número:'))
     num2 = int(input('Digite outro número:'))
-    soma = num1 - num2
-    print(f'A soma entre {num1} - {num2} é igual a: {soma}')
+    sub = num1 - num2
+    print(f'A soma entre {num1} - {num2} é igual a: {sub}')
 
 def Multiplicação():
     num1 = int(input('Digite um número:'))
     num2 = int(input('Digite outro número:'))
-    soma = num1 * num2
-    print(f'A Multiplicação entre {num1} * {num2} é igual a: {soma}')
+    mult = num1 * num2
+    print(f'A Multiplicação entre {num1} * {num2} é igual a: {mult}')
 
 
 
@@ -34,17 +34,6 @@ def RaizQuadrada():
     num1 = int(input('Digite um número:'))
     raiz = math.sqrt(num1)
     print(f'A Raiz Quadrada de {num1} é: {raiz}')
-
-
-
-
-def Fibonacci():
-    num1 = int(input('Digite um número:'))
-    num2 = int(input('Digite outro número:'))
-    soma = num1 + num2
-    print(f'A soma entre {num1} + {num2} é igual a {soma}')
-
-
 
 
 
